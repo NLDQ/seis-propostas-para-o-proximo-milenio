@@ -1,0 +1,417 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>"Seis Propostas para o Próximo Milénio", de Italo Calvino</title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
+    <!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
+
+    <!-- CSS Reset -->
+    <style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+      /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+html,  body {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/* What is does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+	margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,  td {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+}
+table table table {
+	table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+.yshortcuts a {
+	border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+}
+</style>
+
+    <!-- Progressive Enhancements -->
+    <style type="text/css">
+        h1{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:2em;
+			font-style:italic;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h2{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h3{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h4{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.1em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h5{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:14px;
+			font-style:normal;
+			font-weight:normal;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		p{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:165%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #555555 !important;
+            border-color: #555555 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 700px) {
+
+            .email-container {
+                width: 100% !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid,
+            .fluid-centered {
+                max-width: 700 !important;
+                height: auto !important;
+                margin-left: auto!important;
+                margin-right: auto!important;
+            }
+            /* And center justify these ones. */
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 700 !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+        
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+                
+        }
+
+    </style>
+    </head>
+    <body bgcolor="#FFFFFF" width="100%" style="margin: 0; padding:0" yahoo="yahoo">
+    <table bgcolor="FFFFFF" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+      <tr>
+        <td>
+            
+            <!-- Visually Hidden Preheader Text : BEGIN -->
+            <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">"Seis Propostas para o Próximo Milénio", de Italo Calvino</div>
+            <!-- Visually Hidden Preheader Text : END --> 
+            
+            <!-- Cabeçalho : COMEÇO, alterar imagem -->
+            <table align="center" width="100%" class="email-container">
+            <tr>
+                <td align="center" style="font-size: 0.6em; font-weight: normal; line-height: 1em; color: #000000; font-family: sans-serif; padding:10px 0px 0px 0px">Se não conseguir visualizar corretamente este e-mail <a href="https://nldq.github.io/nl-seis-propostas-para-o-proximo-milenio/">clique aqui</a></td>
+			</tr>
+			<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123445&authkey=%21AMxe9px-h8g3JY0&width=700&height=50" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+			<tr>
+				<td style="padding: 0em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21132361&authkey=%21AC6y1X5hq6kkU5A&width=700&height=400" alt="&quot;Seis Propostas para o Próximo Milénio&quot;, de Italo Calvino" border="0" width="700" align="center" style="width: 100%; max-width: 700px; height: auto;"></td>
+			</tr>
+          </table>
+            <!-- Cabeçalho : FIM --> 
+            
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="700" class="email-container">
+            
+<!-- Livro : COMEÇO-->
+            
+				<tr>
+				<td dir="ltr" align="center" valign="top" width="100%" style="padding: 0px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="90.5%">
+					<table align="center" width="100%">
+						<tbody>
+							<tr>
+							<td valign="top" align="center" style="padding:0px 60px 30px 60px;">
+							<h1 style="color:#c41a20">Seis Propostas para o Próximo Milénio</h1>
+							<h2>Italo Calvino</h2>
+							<h5>Tradução de José Colaço Barreiros</h5>
+							<h4>Nas livrarias a 16 de Abril</h4>
+								<br>
+								<h4 style="font-weight:normal"><strong>O livro onde estão reunidos os últimos textos de Calvino, um conjunto de conferências que deixou escritas para ler em Harvard, e que não chegou a concretizar devido à sua morte.</strong></h4>
+								<p style="text-align:left !important"><br><strong>Em 1984</strong>, Italo Calvino foi convidado pela Universidade de Harvard a realizar as Charles Eliot Norton Poetry Lectures – um ciclo de seis conferências que têm lugar no decorrer de um ano letivo. A partir daí, consagrou quase todo o seu tempo à preparação destas conferências. Infelizmente, pouco antes de partir para os Estados Unidos, teve de ser internado e não voltou a sair do hospital.<br>
+								<strong>Sobreviveram-lhe estes rascunhos</strong>, um resumo brilhante do pensamento de um grande escritor cujo legado perdurará ao longo do milénio a que se dirige. Neles, com imaginação e sagacidade, Calvino procurou definir as virtudes da grande literatura do passado, para moldar os valores do futuro. O que deveria ser valorizado na literatura? Quais os valores literários a conservar no próximo milénio?
+								<br><br>
+								<strong>Italo Calvino dedica uma conferência</strong>, ou lição, a cada um dos conceitos literários que lhe eram mais caros – leveza, rapidez, exatidão, visibilidade, multiplicidade e consistência –, deixando-nos a mais eloquente defesa da literatura no Século XX.
+								</p>
+								<p style="text-align:center"><br><strong><em>«Rico e profundamente gratificante… este é um livro que nos faz pensar… há um universo aqui dentro.»</em></strong><br>Guardian</p>
+								<p style="text-align:center"><strong><em>«Uma brilhante e original abordagem à literatura, uma chave para a própria obra de Italo Calvino e um comentário delicioso e esclarecedor sobre algumas das melhores obras da literatura mundial.»</em></strong><br>San Francisco Chronicle</p>
+								<p style="text-align:center"><strong><em>«Este é o livro que mais ofereço.»</em></strong><br>Ali Smith</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			<hr width="91%" color="c41a20">
+			<br><br>
+<!-- Sobre o autor -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Italo Calvino." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21132360&authkey=%21AGT-6J9Ix-e67Hw&width=280&height=420" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p><strong>Italo Calvino</strong> nasceu em Santiago de las Vegas, nos arredores de Havana (Cuba), a 15 de Outubro de 1923. Passou praticamente toda a sua vida em Itália, excetuando os treze anos em que viveu em Paris. Faleceu em Siena, a 19 de Setembro de 1985.<br>
+							Estudou em San Remo até aos 20 anos, ingressando então na Resistência contra o fascismo e a ocupação nazi, depois de aderir ao Partido Comunista, que abandonou em 1957. Terminada a Segunda Guerra Mundial, Calvino instalou-se em Turim, começando a traba¬lhar na Einaudi, que depressa se transformou numa das principais editoras italianas do pós-guerra.<br>
+							<strong>Já trabalhava na Einaudi</strong> (onde desempenhou um importantíssimo papel como consultor literário) quando concluiu a sua licenciatura em Letras.<br>
+							<strong>Com <em>O Atalho dos Ninhos de Aranha</em></strong> (1947) — a que se seguiu, em 1949, <em>Ultimo Viene il Corvo</em> e, em 1952, <em>O Visconde Cortado ao Meio</em>, primeiro romance da sua trilogia fantástica <em>Os Nossos Antepassados</em> — deu início a uma surpreendente carreira literária, que viria a consagrá-lo como um dos maiores escritores italianos do Século XX.
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="c41a20">
+<br>
+<!-- Outros livros da autora-->
+<table align="center" width="80%">
+	<h3 style="color:#c41a20">Outros livros do autor</h3>
+	<tr>
+        <td align="center" width="100%" class="stack-column-center">
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="O Visconde Cortado ao Meio." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21132359&authkey=%21AKXK-oXnVigeQug&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="O Barão Trepador." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21132366&authkey=%21AHEcXHcARe7uYJ4&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="O Cavaleiro Inexistente." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21132362&authkey=%21AJxz0t4Ya5YPOC8&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Os Amores Difíceis." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21132364&authkey=%21ALmhbkynwAr2GOw&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<table align="center" width="80%">
+	<tr>
+        <td align="center" width="100%" class="stack-column-center">
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="As Cidades Invisíveis." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21132363&authkey=%21AHmIQE7ja9rnPPo&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Se numa Noite de Inverno Um Viajante." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21132365&authkey=%21AJvoFDRtD9H8T_g&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Porquê ler os clássicos?" src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21132367&authkey=%21ANoPeUC3xJYGgEU&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Um Otimista na América." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21132369&authkey=%21AGm02N2EZ9-HC6Y&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="c41a20">
+<br>
+<!-- Capa e especificações -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="&quot;Seis Propostas para o Próximo Milénio&quot;, de Italo Calvino." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21132368&authkey=%21AMdsIxeYTe_tWoI&width=1042&height=1564" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p style="line-height: 250%">
+							Literatura Traduzida<br>
+							176 páginas<br>
+							16,90 Euros<br>
+							ISBN: 978-972-20-8133-7 <br>
+							1.ª Edição: Abril 2024<br>
+							Dom Quixote
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+					<table align="center" width="100%">
+	<tbody>
+		<tr>
+			<td valign="top" align="center" style="padding: 10px">
+				<p style="text-align: center; line-height: 150%">Para mais informações:<br>
+				Rui Breda<br>
+				938 527 410<br></p>
+			</td>
+		</tr>
+		<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123446&authkey=%21AF8CaGSbZcojQpU&width=700&height=125" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+	</tbody>
+					</table>
+                  </table></td>
+              </tr>
+          </table>
+            <!-- Email Body : END --> 
+            
+            <!-- Email Footer : BEGIN -->
+            
+            <!-- Email Footer : END -->
+            
+			</td></tr></table>
+</body>
+</html>
